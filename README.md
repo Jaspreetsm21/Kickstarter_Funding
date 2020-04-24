@@ -13,3 +13,20 @@
 **For Web Framework Requirements**: pip install -r requirements.txt
 
 **Flask and Heroku Production**: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+
+
+# Model Building 
+First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
+
+I tried four different models and evaluated them using Precision, Recall and confusion matrix. I chose confusion matrix because it is relatively easy to interpret.
+
+I tried four different models:
+
+Linear Logistic – Baseline for the model
+Decision Tree and kneighborsclassifier 
+Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
+
+
+# Model Performance
+
+# Production 
