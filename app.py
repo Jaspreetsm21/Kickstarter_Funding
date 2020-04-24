@@ -16,6 +16,9 @@ model = pickle.load(open('KickStart_model.pkl','rb'))
 #     return model
 
 app = Flask(__name__)
+@app.route('/')
+def home():
+    return 'Hello Jas'
 @app.route('/predict', methods=['GET'])
 def predict():
 
@@ -24,7 +27,7 @@ def predict():
     X = np.array(data_in).reshape(1,-1)
 
     #load model
-    #model = load_models()
+    # model = load_models()
     prediction = model.predict(X)[0]
     
     response = json.dumps({'response': float(prediction)})

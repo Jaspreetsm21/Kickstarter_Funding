@@ -7,7 +7,8 @@ url = 'http://127.0.0.1:5000/predict'
 
 data = json.dumps(data_in)
 data
-r_survey = requests.post(url, data)
+print(data)
+r_survey = requests.get(url, data)
 print(url)
 print(r_survey)
 # send_request = requests.post(url, data)
