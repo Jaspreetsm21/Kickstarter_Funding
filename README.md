@@ -12,7 +12,7 @@
 
 **For Web Framework Requirements**: pip install -r requirements.txt
 
-**Flask and Heroku Production**: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+**Flask and Heroku Production**: https://towardsdatascience.com/designing-a-machine-learning-model-and-deploying-it-using-flask-on-heroku-9558ce6bde7b
 
 
 # Model Building 
@@ -25,6 +25,11 @@ I tried four different models:
 Linear Logistic – Baseline for the model
 Decision Tree and kneighborsclassifier 
 Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
+
+# Data Cleaning
+
+
+# EDA
 
 
 # Model Performance
