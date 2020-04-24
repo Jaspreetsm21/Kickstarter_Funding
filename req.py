@@ -1,5 +1,5 @@
 import requests 
-from data_input1 import data_in
+from data_input import data_in
 import json
 url = 'http://127.0.0.1:5000/predict'
 

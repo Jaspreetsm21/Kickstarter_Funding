@@ -7,13 +7,13 @@ import pickle
 import pandas as pd
 from waitress import serve
 
-
-def load_models():
-    file_name = "models/model_file.p"
-    with open(file_name, 'rb') as pickled:
-        data = pickle.load(pickled)
-        model = data['model']
-    return model
+model = pickle.load(open('KickStart_model.pkl','rb'))
+# def load_models():
+#     file_name = "models/model_file.p"
+#     with open(file_name, 'rb') as pickled:
+#         data = pickle.load(pickled)
+#         model = data['model']
+#     return model
 
 app = Flask(__name__)
 @app.route('/predict', methods=['GET'])
@@ -24,7 +24,7 @@ def predict():
     X = np.array(data_in).reshape(1,-1)
 
     #load model
-    model = load_models()
+    #model = load_models()
     prediction = model.predict(X)[0]
     
     response = json.dumps({'response': float(prediction)})
