@@ -17,8 +17,8 @@ model = pickle.load(open('KickStart_model.pkl','rb'))
 
 app = Flask(__name__)
 @app.route('/')
-def home():
-    return 'Hello Jas'
+#def home():
+#    return 'Hello Jas'
 @app.route('/predict', methods=['GET'])
 def predict():
 
