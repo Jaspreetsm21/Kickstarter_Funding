@@ -1,2 +1,4 @@
 # Data Science Kickstarter Sucess Rate: Project Overview
-Using ML Model to predict whether Kickstarter project would be successful or not.
+
+* Created a tool that esitmates the success rate of Kickstarter funding project to help entrepreneur understand what feature/element has to achieve a successful campagin.
+
