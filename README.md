@@ -55,3 +55,11 @@ https://kickstarter001.herokuapp.com/
 
 
 ![](images/goals.PNG)
+
+
+
+![](../master/Images/goals.png)
+
+
+
+![](goals.png)
