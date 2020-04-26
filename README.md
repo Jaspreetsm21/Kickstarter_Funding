@@ -51,4 +51,4 @@ In this step, I built a flask API endpoint that was hosted on a local webserver 
 
 https://kickstarter001.herokuapp.com/
 
-![](Images/heroku.png)
+![](images/heroku.png)
