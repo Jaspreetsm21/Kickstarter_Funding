@@ -35,8 +35,13 @@ Transformed founded Unix date to Standard dates
 Added new column for time between created and deadline date - also launched to deadline date 
 Changing date types 
 
-![](Images/country.PNG)    ![](Images/goals.PNG)   
+![](Images/country.PNG)
 
+![](Images/goals.PNG)   
+
+![](Images/feature_important.PNG)  
+
+![](Images/correlatix_matrix.PNG)  
 
 # Model Performance
 The Random Forest model far outperformed the other approaches on the test and validation sets.
