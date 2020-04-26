@@ -35,7 +35,7 @@ Transformed founded Unix date to Standard dates
 Added new column for time between created and deadline date - also launched to deadline date 
 Changing date types 
 
-
+![](Images/country.PNG)    ![](Images/goals.PNG)   
 
 
 # Model Performance
@@ -51,15 +51,5 @@ In this step, I built a flask API endpoint that was hosted on a local webserver 
 
 https://kickstarter001.herokuapp.com/
 
-![](images/heroku.PNG)
+![endpoint](Images/heroku.PNG)
 
-
-![](images/goals.PNG)
-
-
-
-![](../master/Images/goals.png)
-
-
-
-![](goals.png)
