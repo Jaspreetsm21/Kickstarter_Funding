@@ -14,20 +14,6 @@
 
 **Flask and Heroku Production**: https://towardsdatascience.com/designing-a-machine-learning-model-and-deploying-it-using-flask-on-heroku-9558ce6bde7b
 
-
-# Model Building 
-First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
-
-I tried four different models and evaluated them using Precision, Recall and confusion matrix. I chose confusion matrix because it is relatively easy to interpret.
-
-I tried four different models:
-
-Linear Logistic – Baseline for the model
-
-Decision Tree and kneighborsclassifier 
-
-Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
-
 # Data Cleaning and EDA
 After downloading the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
 
@@ -42,6 +28,21 @@ Changing date types
 ![](Images/feature_important.PNG)  
 
 ![](Images/correlatix_matrix.PNG)  
+
+
+# Model Building 
+First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
+
+I tried four different models and evaluated them using Precision, Recall and confusion matrix. I chose confusion matrix because it is relatively easy to interpret.
+
+I tried four different models:
+
+Linear Logistic – Baseline for the model
+
+Decision Tree and kneighborsclassifier 
+
+Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
+
 
 # Model Performance
 The Random Forest model far outperformed the other approaches on the test and validation sets.
