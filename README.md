@@ -36,6 +36,12 @@ Changing date types
 ![](Images/correlatix_matrix.PNG)  
 
 
+# Insight 
+
+US,GB and canada are most likely to back the Kickstarter Projects.
+
+Project under $10,000 are not only more likely to be backed but also has higher chance of achieving their goal.
+
 # Model Building 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
 
