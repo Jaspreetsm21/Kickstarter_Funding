@@ -23,11 +23,13 @@ Added new column for time between created and deadline date - also launched to d
 
 Changing date types 
 
+![](Images/Success%20Rate.PNG)
+
+![](Images/final_status.PNG)
+
 ![](Images/country.PNG)
 
 ![](Images/goals.PNG)   
-
-![](Images/final_status.PNG)
 
 ![](Images/correlatix_matrix.PNG)  
 
