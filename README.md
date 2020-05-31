@@ -27,7 +27,7 @@ Changing date types
 
 ![](Images/goals.PNG)   
 
-![](Images/feature_important.PNG)  
+![](Images/final_status.PNG)
 
 ![](Images/correlatix_matrix.PNG)  
 
