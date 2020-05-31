@@ -25,6 +25,8 @@ Changing date types
 
 ![](Images/Success%20Rate.PNG)
 
+![](Images/outliers.PNG)
+
 ![](Images/final_status.PNG)
 
 ![](Images/country.PNG)
