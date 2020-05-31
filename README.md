@@ -17,8 +17,10 @@
 # Data Cleaning and EDA
 After downloading the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
 
-Transformed founded Unix date to Standard dates
+Transformed founded Unix date to GMT date
+
 Added new column for time between created and deadline date - also launched to deadline date 
+
 Changing date types 
 
 ![](Images/country.PNG)
