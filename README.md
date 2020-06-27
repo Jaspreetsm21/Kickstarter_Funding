@@ -1,4 +1,4 @@
-# Data Science Kickstarter Sucess Rate: Project Overview
+# Data Science Kickstarter Success Rate: Project Overview
 
 * Created a tool that estimates the success rate of Kickstarter funding project to help entrepreneur achieve a successful campagin.
 * Optimised Linear,DecisionTree and Random Forest Regressors using GridsearchCV to reach the best model.
