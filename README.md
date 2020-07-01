@@ -1,8 +1,9 @@
 # Data Science Kickstarter Success Rate: Project Overview
 
-* Created a tool that estimates the success rate of Kickstarter funding project to help entrepreneur achieve a successful campaign.
-* Optimised Linear,DecisionTree and Random Forest Regression using GridsearchCV to reach the best model.
-* Built a client facing API using flask and Heroku to view that on the web.
+* Created a tool that estimates the success rate of the Kickstarter funding project to help an entrepreneur achieve a successful campaign.
+* Optimised Linear, DecisionTree, and Random Forest Regression using GridsearchCV to reach the best model.
+* Built a client-facing API using flask and Heroku to view that on the web.
+
 
 # Code and Resources Used
 
@@ -19,7 +20,7 @@ After downloading the data, I needed to clean it up so that it was usable for ou
 
 Transformed Unix date to GMT date
 
-Added new column for time between created and deadline date - also launched to deadline date 
+Added a new column for the time between created and the deadline date - also launched to deadline date 
 
 Changing date types 
 
@@ -38,20 +39,20 @@ Changing date types
 
 # Insight 
 
-US,GB and canada are most likely to back the Kickstarter Projects.
+US,GB and Canada are most likely to back the Kickstarter Projects.
 
-Project under $10,000 are not only more likely to be backed but also has higher chance of achieving their goal.
+Project under $10,000 are not only more likely to be backed but also has a higher chance of achieving their goal.
 
 # Model Building 
-First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
+First, I transformed the categorical variables into dummy variables. I also split the data into train and test sets with a test size of 20%.
 
-I tried four different models and evaluated them using Precision, Recall and confusion matrix. I chose confusion matrix because it is relatively easy to interpret.
+I tried four different models and evaluated them using Precision, Recall and confusion matrix. I chose the confusion matrix because it is relatively easy to interpret.
 
 I tried four different models:
 
 Linear Logistic – Baseline for the model
 
-Decision Tree and kneighborsclassifier 
+Decision Tree and Kneighborsclassifier 
 
 Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
@@ -65,7 +66,7 @@ Accurary score of 86.9% on Training Data.
 
 
 # Production 
-In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a Kickstarter listing and returns an success rate.
+In this step, I built a flask API endpoint that was hosted on a local web server by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a Kickstarter listing and returns a success rate.
 
 https://kickstarter001.herokuapp.com/
 
